@@ -1,7 +1,7 @@
 # pillow is based on PIL, so import Image from PIL
 from PIL import Image
 
-# requests handles the http(s) protocol for you, to simplify getting an image f$
+# requests handles the http(s) protocol for you, to simplify getting an image from the internet.
 import requests
 
 

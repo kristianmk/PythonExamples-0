@@ -9,5 +9,5 @@ import requests
 # URL to a specific MEME on Reddit:
 url = "https://i.redd.it/4fmgvj6odij71.jpg"
 
-img = Image.open(requests.get(url, stream=True).raw)
-img.show()
+with Image.open(requests.get(url, stream=True).raw) as img:
+  img.show()
